@@ -3,15 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/img/xmen.png" type="image/x-icon">
     <title>Super Poderes</title>
 </head>
 <body>
     <header>
-        <h1>Catálogo de Superpoderes</h1>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Poderes</a>
-            <a href="#">Contacto</a>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <img src="./assets/img/xmen.png" alt="icono SuperHeroes">
+                <a class="navbar-brand" href="#">Catálogo de Superpoderes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Poderes</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -28,18 +51,92 @@
     </main>
 
     <section class="products">
-        <h2>🧬 Catálogo de Poderes</h2>
-        <div class="product-item">
-            <h3>Invisibilidad</h3>
-            <p>Desaparece a voluntad y muévete sin ser detectado.</p>
-        </div>
-        <div class="product-item">
-            <h3>Teletransportación</h3>
-            <p>Viaja instantáneamente a cualquier lugar del mundo.</p>
-        </div>
-        <div class="product-item">
-            <h3>Control del tiempo</h3>
-            <p>Detén, adelanta o retrocede el tiempo a tu favor.</p>
+        <h2>🧰 Catálogo de Superpoderes</h2>
+        <div class="row">
+            <div class="card" style="width: 18rem;">
+            <img src="https://blazquezygarate.com/wp-content/uploads/2019/10/cerebros-conectados.jpg" class="card-img-top" alt="Imagen de Telepatia">
+            <div class="card-body">
+                <h5 class="card-title">Telepatia</h5>
+                <p class="card-text">Leer la mente de otros y comunicarse sin hablar.</p>
+            </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://wl-genial.cf.tsp.li/resize/728x/jpg/a76/d91/ebfc775305ab1eaf7b7d353838.jpg" class="card-img-top" alt="Imagen Invisibilidad">
+                <div class="card-body">
+                    <h5 class="card-title">Invisibilidad</h5>
+                    <p class="card-text">Desaparecer a voluntad y moverse sin ser visto.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://media.gettyimages.com/id/878639318/es/vector/flying-superh%C3%A9roe.jpg?s=612x612&w=gi&k=20&c=7AIGDXbOT9BlasBzcmku7EjzYxDhsJ6DitEccPl1Lsk=" class="card-img-top" alt="Imagen de vuelo">
+                <div class="card-body">
+                    <h5 class="card-title">Vuelo</h5>
+                    <p class="card-text">Surcar los cielos sin necesidad de avión.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="Imagen Superfuerza">
+                <div class="card-body">
+                    <h5 class="card-title">Superfuerza</h5>
+                    <p class="card-text">Levantar objetos pesados y romper barreras físicas.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="imagen Control del tiempo">
+                <div class="card-body">
+                    <h5 class="card-title">Control del tiempo</h5>
+                    <p class="card-text">Detener, acelerar o retroceder el tiempo.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="Imagen de teletransportarse">
+                <div class="card-body">
+                    <h5 class="card-title">Teletransportación</h5>
+                    <p class="card-text">Moverse instantáneamente de un lugar a otro.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="Imagen Manipulacion energía">
+                <div class="card-body">
+                    <h5 class="card-title">Manipulación de energía</h5>
+                    <p class="card-text">Crear y controlar rayos, fuego o hielo.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="Imagen de Sanacion">
+                <div class="card-body">
+                    <h5 class="card-title">Curación instantánea</h5>
+                    <p class="card-text">Recuperarse de heridas al instante.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="Imagen Vision nocturna">
+                <div class="card-body">
+                    <h5 class="card-title">Visión nocturna</h5>
+                    <p class="card-text">Ver claramente en la oscuridad total.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="Imagen Elasticidad">
+                <div class="card-body">
+                    <h5 class="card-title">Elasticidad</h5>
+                    <p class="card-text">Estirar el cuerpo a cualquier forma o tamaño.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="Imagen Control mental">
+                <div class="card-body">
+                    <h5 class="card-title">Control mental</h5>
+                    <p class="card-text">Influir en las decisiones de otros.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="Imagen de ilusiones">
+                <div class="card-body">
+                    <h5 class="card-title">Creación de ilusiones</h5>
+                    <p class="card-text">Alterar la percepción de la realidad.</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -52,5 +149,6 @@
             <a href="#">Facebook</a>
         </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
