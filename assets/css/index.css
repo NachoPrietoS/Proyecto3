@@ -11,3 +11,16 @@
 header{
     background-color: purple;
 }
+header nav div img {
+    height: 50px;
+    padding-top: 8px;
+}
+
+/* Footer*/
+
+
+footer div div div p{
+    margin: 0;
+    background-color: red;
+    height: 5rem;
+}
