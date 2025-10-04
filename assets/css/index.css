@@ -8,19 +8,31 @@
 /* Variables */
 
 /* Header */
-header{
-    background-color: purple;
-}
 header nav div img {
-    height: 50px;
-    padding-top: 8px;
+    height: 40px;
+}
+header nav div h1{
+    margin: 0;
 }
 
 /* Footer*/
-
+footer div{
+    width: 100%;
+}
 
 footer div div div p{
     margin: 0;
-    background-color: red;
-    height: 5rem;
 }
+
+
+/* body */
+body main{
+    margin-top: 80px;
+}
+
+body .products div .img-card{
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
