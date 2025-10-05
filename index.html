@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <!-- Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- CSS -->
@@ -13,16 +16,20 @@
     <title>Super Poderes</title>
 </head>
 <body>
-    <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <img src="./assets/img/xmen.png" alt="icono SuperHeroes">
-                <h1>Catalogo de Superpoderes</h1>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg justify-content-around">
+            <div class="container m-0">
+                <div>
+                    <img src="./assets/img/xmen.png" alt="icono SuperHeroes">
+                </div>
+                <div class="title">
+                    <h1>Superpoderes</h1>
+                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav gap-2">
                         <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="./index.html">Home</a>
                         </li>
@@ -39,15 +46,17 @@
     </header>
 
     <main>
-        <div class="container-fluid bg-secondary">
-            <div class="row">
-                <div class="col">
-                    <h2>Descubre tu poder interior</h2>
-                    <p>Explora nuestra colección de superpoderes únicos y encuentra el que mejor se adapta a tu misión.</p>
-                    <input type="email" placeholder="Ingresa tu correo para recibir novedades">
-                    <button type="submit">Enviar</button>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col m-5 mensaje">
+                    <h2 class="text-center welcome">Descubre tu poder interior</h2>
+                    <p class="text-center">Explora nuestra colección de superpoderes únicos y encuentra el que mejor se adapta a tu misión.</p>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Ingresa tu correo electronico" aria-label="Recipient’s username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Enviar</button>
                 </div>
-                <div class="col">
+                </div>
+                <div class="col imagenPrincipal">
                     <div class="row">
                         <img src="./assets/img/main.jpeg" alt="Super Heroes">
                     </div>
@@ -57,10 +66,10 @@
     </main>
 
     <section class="products text-center">
-        <h2>🧰 Catálogo de Superpoderes</h2>
+        <h2 class="m-3 pb-3">🧰 Catálogo de Superpoderes</h2>
         <div class="container">
-            <div class="row">
-                <div class="card m-2" style="width: 18rem;">
+            <div class="row gap-3 justify-content-around">
+                <div class="card m-2 " style="width: 18rem;">
                     <img src="https://blazquezygarate.com/wp-content/uploads/2019/10/cerebros-conectados.jpg" class="card-img-top img-card" alt="Imagen de Telepatia">
                     <div class="card-body">
                         <h5 class="card-title">Telepatia</h5>
@@ -113,7 +122,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="p-3">
         <div class="container-fluid m-3 text-center">
             <div class="row align-items-center">
                 <div class="col-sm-12 col-md-12 col-lg-6">

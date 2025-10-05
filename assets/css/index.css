@@ -1,3 +1,5 @@
+
+
 /* Reset */
 * {
     margin: 0;
@@ -5,34 +7,79 @@
     box-sizing: border-box;
 }
 
-/* Variables */
 
 /* Header */
-header nav div img {
+body header{
+    background-color: #e7ede9;
+}
+body header nav div img {
     height: 40px;
 }
-header nav div h1{
+body header nav div h1{
     margin: 0;
+    margin-left: 15px;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 /* Footer*/
-footer div{
+body footer div{
     width: 100%;
 }
 
-footer div div div p{
+body footer div div div p{
     margin: 0;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 
 /* body */
+body{
+    background-color: #e7ede9;
+}
 body main{
-    margin-top: 80px;
+    margin-top: 15px;
+}
+body main div div div .welcome{
+    font-family: "Josefin Sans", sans-serif;
 }
 
-body .products div .img-card{
+body .products h2{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body .products div div .img-card{
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
+    padding-top: 12px;
 }
 
+body .products div div div div h5{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+@media screen and (min-width: 992px){
+    .title{
+        margin-left: 5rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    body main div div .mensaje{
+        background-image: url(../img/main.jpeg);
+        background-size: cover;
+        color: rgb(139, 136, 136);
+        font-size: large;
+        border-radius: 10px;
+    }
+
+    body main div div .mensaje div button{
+        background-color: rgb(139, 136, 136);
+        color: rgb(20, 20, 106);
+    }
+
+    body main div div .imagenPrincipal{
+        display: none;
+    }
+}
