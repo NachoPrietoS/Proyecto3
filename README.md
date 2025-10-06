@@ -19,4 +19,4 @@ Diseño de Prototipo Desktop
 ![alt text](./assets/img/Desktop.png)
 
 Diseño de Prototipo Mobile
-![alt text](../Proyecto3/assets/img/Mobile.png)
+![alt text](./assets/img/Mobile.png)
