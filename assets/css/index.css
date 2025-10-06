@@ -1,12 +1,9 @@
-
-
 /* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 /* Header */
 body header{
@@ -69,9 +66,13 @@ body .products div div div div h5{
     body main div div .mensaje{
         background-image: url(../img/main.jpeg);
         background-size: cover;
+        height: 250px;
         color: rgb(139, 136, 136);
         font-size: large;
         border-radius: 10px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
     }
 
     body main div div .mensaje div button{
